@@ -1,0 +1,26 @@
+.wrapper {
+    position: fixed;
+    background-color: var(--color-backGround);
+    border: 1px solid var(--color-primary);
+    color: var(--color-text);
+    left: 25vw;
+    right: 25vw;
+    top: 25vh;
+    bottom: 25vh;
+    width: 50vw;
+    max-height: 50vh;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.subWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+}

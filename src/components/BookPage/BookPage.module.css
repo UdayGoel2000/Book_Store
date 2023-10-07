@@ -1,0 +1,6 @@
+.filterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10vw;
+}

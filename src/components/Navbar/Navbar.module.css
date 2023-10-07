@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 0.8rem 2rem;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text);
+
+    @media screen and (max-width: 480px) {
+        padding: 0.5rem 1.5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding: 0.1rem 1rem;
+    }
+}
+
+.subWrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    color: var(--color-text);
+}
+
+.subWrapper p {
+    color: var(--color-text);
+}
+
+.logo {
+    width: 30vh;
+    color: var(--color-text);
+    font-size: large;
+    text-decoration: none;
+
+    @media screen and (max-width: 480px) {
+        width: 15vh;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 13vh;
+        font-size: medium;
+    }
+}

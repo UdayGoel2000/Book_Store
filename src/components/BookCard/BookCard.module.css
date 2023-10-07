@@ -1,0 +1,38 @@
+.wrapper {
+    border: 1px solid var(--color-primary);
+    gap: 5%;
+    padding-bottom: 5px;
+    width: 160.5px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+.cardContent {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bookContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 5px;
+    padding-bottom: 0;
+    color: black;
+}
+
+.cartButton {
+    position: relative;
+    bottom: 0px;
+    align-self: center;
+    width: 90%;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
