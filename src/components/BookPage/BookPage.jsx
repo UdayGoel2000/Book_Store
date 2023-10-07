@@ -31,7 +31,7 @@ const BookPage = ({ data }) => {
     if (author?.length) {
       newAuthorData = data.filter((item) => author.includes(item.author));
     }
-    if (newGenreData?.length || newGenreData?.length) {
+    if (newGenreData?.length || newAuthorData?.length) {
       setFilteredData([...new Set([...newGenreData, ...newAuthorData])]);
     } else {
       setFilteredData(data);

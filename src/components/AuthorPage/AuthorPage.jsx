@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import styles from "./AuthorPage.module.css";
 import Navbar from "../Navbar/Navbar";
 import AuthorCard from "../AuthorCard/AuthorCard";
+import AuthorDetailView from "../AuthorDetailView/AuthorDetailView";
 
 const AuthorPage = ({ bookData, authorData }) => {
-  const [authorDetailViewId, setAuthorDetailViewId] = useState(0);
+  const [authorDetailViewId, setAuthorDetailViewId] = useState("");
   const [authorDetailViewClick, setAuthorDetailViewClick] = useState(false);
   return (
     <div>
@@ -13,15 +14,34 @@ const AuthorPage = ({ bookData, authorData }) => {
         <hr />
         <h1 className={styles.title}>{"Authors"}</h1>
         <hr />
-        {authorData.map((ele) => (
-          <AuthorCard
-            key={ele.id}
-            authorData={authorData}
-            setAuthorDetailViewId={setAuthorDetailViewId}
-            setAuthorDetailViewClick={setAuthorDetailViewClick}
-          />
-        ))}
+        <div className={styles.wrapper}>
+          {authorData.map((ele) => (
+            <AuthorCard
+              key={ele.id}
+              authorData={ele}
+              setAuthorDetailViewId={setAuthorDetailViewId}
+              setAuthorDetailViewClick={setAuthorDetailViewClick}
+            />
+          ))}
+        </div>
       </div>
+      {authorDetailViewClick ? (
+        <AuthorDetailView
+          bookNameArray={bookData
+            .filter((item) => {
+              const authorDetails = authorData?.filter(
+                (ele) => ele.id === authorDetailViewId
+              )[0];
+              return item.author === authorDetails?.name;
+            })
+            .map((item) => item.name)}
+          detailData={
+            authorData?.filter((ele) => ele.id === authorDetailViewId)[0]
+          }
+        />
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

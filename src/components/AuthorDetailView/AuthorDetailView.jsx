@@ -1,7 +1,8 @@
 import React from "react";
-import styles from "./BookDetailsView.module.css";
+import styles from "./AuthorDetailView.module.css";
 
-const BookDetailsView = ({ detailData }) => {
+const AuthorDetailView = ({ bookNameArray, detailData }) => {
+  console.log(bookNameArray);
   return (
     <div className={styles.wrapper}>
       <img
@@ -15,18 +16,15 @@ const BookDetailsView = ({ detailData }) => {
       />
       <div className={styles.subWrapper}>
         <h1>{detailData?.name}</h1>
-        <p>
-          <b>By: </b>
-          {detailData?.author}
-        </p>
-        <p>
-          <b>Genre: </b>
-          {detailData?.genre}
-        </p>
-        <p>{detailData?.description}</p>
+        <b>List of Books Written by him</b>
+        <ol>
+          {bookNameArray?.map((ele) => (
+            <li>{ele}</li>
+          ))}
+        </ol>
       </div>
     </div>
   );
 };
 
-export default BookDetailsView;
+export default AuthorDetailView;

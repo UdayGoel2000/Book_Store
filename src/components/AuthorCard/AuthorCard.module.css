@@ -1,0 +1,16 @@
+.wrapper {
+    border: 1px solid var(--color-primary);
+    gap: 5%;
+    padding-bottom: 5px;
+    width: 160.5px;
+    height: 220px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+.authorName {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
