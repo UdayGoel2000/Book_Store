@@ -3,7 +3,7 @@ import styles from "./BookSection.module.css";
 import BookCard from "../BookCard/BookCard";
 import BookDetailsView from "../BookDetailsView/BookDetailsView";
 
-const BookSection = ({ title, data }) => {
+const BookSection = ({ title, data, cart, handleAddToCart }) => {
   const [bookDetailViewId, setBookDetailViewId] = useState(0);
   const [bookDetailViewClick, setBookDetailViewClick] = useState(false);
   return (
@@ -19,6 +19,8 @@ const BookSection = ({ title, data }) => {
               bookData={ele}
               setBookDetailViewId={setBookDetailViewId}
               setBookDetailViewClick={setBookDetailViewClick}
+              cart={cart}
+              handleAddToCart={handleAddToCart}
             />
           ))}
         </div>

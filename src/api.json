@@ -6,6 +6,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO7Te2MLyEC2TPkOt7Ghh_SpYdEyuYUsznDwdc-0qhy-Ju4v0I",
       "author": "Harper Lee",
       "genre": "Domestic Fiction",
+      "price": 150,
       "description": "To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools"
     },
     {
@@ -14,6 +15,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGHZxank0_ecARhZgitONgh1EWnpkrL1FfJcq4bCNPzPeE3lFz",
       "author": "Charlotte Bronte",
       "genre": "Romance novel",
+      "price": 150,
       "description": "Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York"
     },
     {
@@ -22,6 +24,7 @@
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsavbB1JB41qvpgD9oAiaXitJu69oinUy_JolRsSZKpMuihryK",
       "author": "J. D. Salinger",
       "genre": "Novel",
+      "price": 150,
       "description": "The Catcher in the Rye is an American novel by J. D. Salinger that was partially published in serial form 1945–46 before being novelized in 1951. Originally intended for adults, it is often read by adolescents for its themes of angst and alienation, and as a critique of superficiality in society."
     },
     {
@@ -30,6 +33,7 @@
       "imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWOvWV-UtYvY2Qu57SAEGFDMsvxmxU3JjUgPh2_6GgS_6rGUyU",
       "author": "Mary Shelley",
       "genre": "Horror fiction",
+      "price": 150,
       "description": "Frankenstein; or, The Modern Prometheus is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment."
     },
     {
@@ -38,6 +42,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQLFFtRQybT035PZLJUlFryBFiWZAjxGvjblf0tDwJbpBIY5Gau",
       "author": "Mark Twain",
       "genre": "Adventure fiction",
+      "price": 150,
       "description": "Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 and in the United States in February 1885"
     },
     {
@@ -46,6 +51,7 @@
       "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMzFauFHVQTkklojHoIspzFxRzx_G-p5VgKg-XhmCiwUz2wnq1",
       "author": "F. Scott Fitzgerald",
       "genre": "Novel",
+      "price": 150,
       "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan."
     },
     {
@@ -54,6 +60,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO7Te2MLyEC2TPkOt7Ghh_SpYdEyuYUsznDwdc-0qhy-Ju4v0I",
       "author": "Harper Lee",
       "genre": "Domestic Fiction",
+      "price": 150,
       "description": "To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools"
     },
     {
@@ -62,6 +69,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGHZxank0_ecARhZgitONgh1EWnpkrL1FfJcq4bCNPzPeE3lFz",
       "author": "Charlotte Bronte",
       "genre": "Romance novel",
+      "price": 150,
       "description": "Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York"
     },
     {
@@ -70,6 +78,7 @@
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsavbB1JB41qvpgD9oAiaXitJu69oinUy_JolRsSZKpMuihryK",
       "author": "J. D. Salinger",
       "genre": "Novel",
+      "price": 150,
       "description": "The Catcher in the Rye is an American novel by J. D. Salinger that was partially published in serial form 1945–46 before being novelized in 1951. Originally intended for adults, it is often read by adolescents for its themes of angst and alienation, and as a critique of superficiality in society."
     },
     {
@@ -78,6 +87,7 @@
       "imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWOvWV-UtYvY2Qu57SAEGFDMsvxmxU3JjUgPh2_6GgS_6rGUyU",
       "author": "Mary Shelley",
       "genre": "Horror fiction",
+      "price": 150,
       "description": "Frankenstein; or, The Modern Prometheus is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment."
     },
     {
@@ -86,6 +96,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQLFFtRQybT035PZLJUlFryBFiWZAjxGvjblf0tDwJbpBIY5Gau",
       "author": "Mark Twain",
       "genre": "Adventure fiction",
+      "price": 150,
       "description": "Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 and in the United States in February 1885"
     },
     {
@@ -94,6 +105,7 @@
       "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMzFauFHVQTkklojHoIspzFxRzx_G-p5VgKg-XhmCiwUz2wnq1",
       "author": "F. Scott Fitzgerald",
       "genre": "Novel",
+      "price": 150,
       "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan."
     },
     {
@@ -102,6 +114,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO7Te2MLyEC2TPkOt7Ghh_SpYdEyuYUsznDwdc-0qhy-Ju4v0I",
       "author": "Harper Lee",
       "genre": "Domestic Fiction",
+      "price": 150,
       "description": "To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, it is widely read in high schools and middle schools"
     },
     {
@@ -110,6 +123,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGHZxank0_ecARhZgitONgh1EWnpkrL1FfJcq4bCNPzPeE3lFz",
       "author": "Charlotte Bronte",
       "genre": "Romance novel",
+      "price": 150,
       "description": "Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York"
     },
     {
@@ -118,6 +132,7 @@
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsavbB1JB41qvpgD9oAiaXitJu69oinUy_JolRsSZKpMuihryK",
       "author": "J. D. Salinger",
       "genre": "Novel",
+      "price": 150,
       "description": "The Catcher in the Rye is an American novel by J. D. Salinger that was partially published in serial form 1945–46 before being novelized in 1951. Originally intended for adults, it is often read by adolescents for its themes of angst and alienation, and as a critique of superficiality in society."
     },
     {
@@ -126,6 +141,7 @@
       "imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWOvWV-UtYvY2Qu57SAEGFDMsvxmxU3JjUgPh2_6GgS_6rGUyU",
       "author": "Mary Shelley",
       "genre": "Horror fiction",
+      "price": 150,
       "description": "Frankenstein; or, The Modern Prometheus is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment."
     },
     {
@@ -134,6 +150,7 @@
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQLFFtRQybT035PZLJUlFryBFiWZAjxGvjblf0tDwJbpBIY5Gau",
       "author": "Mark Twain",
       "genre": "Adventure fiction",
+      "price": 150,
       "description": "Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 and in the United States in February 1885"
     },
     {
@@ -142,6 +159,7 @@
       "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMzFauFHVQTkklojHoIspzFxRzx_G-p5VgKg-XhmCiwUz2wnq1",
       "author": "F. Scott Fitzgerald",
       "genre": "Novel",
+      "price": 150,
       "description": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan."
     }
   ],

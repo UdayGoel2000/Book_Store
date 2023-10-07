@@ -3,19 +3,19 @@
     gap: 5%;
     padding-bottom: 5px;
     width: 160.5px;
-    height: 300px;
+    height: 290px;
     border-radius: 10px;
     align-items: center;
     background-color: white;
 }
 
-.cardContent {
+/* .cardContent {
     height: 95px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-}
+} */
 
 .bookContent {
     display: flex;
@@ -32,7 +32,18 @@
     position: relative;
     bottom: 0px;
     align-self: center;
-    width: 90%;
+    width: 100%;
     background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.quantityBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    background-color: #cb973d;
+    color: black;
+    font-weight: 600;
     border-radius: 10px;
 }

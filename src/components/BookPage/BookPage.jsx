@@ -3,7 +3,7 @@ import styles from "./BookPage.module.css";
 import BookSection from "../BookSection/BookSection";
 import Navbar from "../Navbar/Navbar";
 
-const BookPage = ({ data }) => {
+const BookPage = ({ data, cart, handleAddToCart }) => {
   const genreArray = ["Horror fiction", "Romance novel", "Domestic Fiction"];
   const authorArray = ["Harper Lee", "Charlotte Bronte", "Mark Twain"];
   const [genre, setGenre] = useState([]);
@@ -42,7 +42,11 @@ const BookPage = ({ data }) => {
   }, [author, genre]);
   return (
     <div>
-      <Navbar />
+      <Navbar
+        count={cart
+          ?.map((ele) => Number(ele.itemQty))
+          .reduce((a, c) => a + c, 0)}
+      />
       <div className={styles.filterWrapper}>
         <div>
           <label htmlFor="genreFilter">Genre</label>
@@ -81,7 +85,12 @@ const BookPage = ({ data }) => {
           </ul>
         </div>
       </div>
-      <BookSection title={"Books"} data={filteredData} />
+      <BookSection
+        title={"Books"}
+        data={filteredData}
+        cart={cart}
+        handleAddToCart={handleAddToCart}
+      />
     </div>
   );
 };

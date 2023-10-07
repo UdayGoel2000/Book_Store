@@ -1,0 +1,68 @@
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    width: 100vw;
+}
+
+.mainWrapper h1 {
+    margin: auto;
+    align-content: center;
+}
+
+hr {
+    width: 100vw;
+}
+
+.cartDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 10px;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.cartItemCards {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: #000;
+}
+
+.cartItemCards>* {
+    width: 25%;
+}
+
+.deleteButton {
+    position: relative;
+    bottom: 0px;
+    align-self: center;
+    width: auto;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.quantityBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    gap: 1rem;
+    background-color: #cb973d;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.TotalCostDiv {
+    margin-top: 1rem;
+    margin-left: 38vw;
+    padding: 10px;
+    background-color: white;
+    color: #000;
+}
